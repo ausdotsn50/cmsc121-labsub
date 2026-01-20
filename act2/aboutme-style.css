@@ -12,10 +12,19 @@ html {
 
 a {
     color: red;
+    text-decoration: none;
 }
 
+/* Pseudo class */
 a:hover {
     color: purple;
+    text-decoration: underline;
+}
+
+/* Pseudo element */
+p::first-letter {
+    font-weight: 700;
+    font-size: 25px;
 }
 
 h1, h2 {
@@ -47,4 +56,27 @@ footer {
 .moods {
     height: 500px;
     width: auto;
+}
+
+dt {
+    font-size: 14px;
+    color: purple;
+}
+
+dd {
+    font-size: 12px;
+}
+
+.movies {
+    font-weight: bold;
+}
+
+ol.reverse-numbered {
+    list-style-type: none;
+    counter-reset: a 4;
+}
+
+ol.reverse-numbered li::before {
+  content: counter(a)'. ';
+  counter-increment: a -1;
 }
