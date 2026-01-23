@@ -11,7 +11,7 @@ html {
 }
 
 a {
-    color: red;
+    color: #990000;
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ p::first-letter {
 }
 
 h1, h2 {
-    color: orange;
+    color: #6B6B6B;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -49,7 +49,7 @@ footer {
     padding: 10px;
 }
 
-.container {
+main {
     padding: 5px;
 }
 

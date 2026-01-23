@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="aboutme-style.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Hello, I'm Angela!</h1>
         <!-- Description of myself of two sentences or less. Use bold for anything to emphasize in the sentence. -->
         <p>I'm passionate about two M's: <b>Math</b> & <b>Music</b>.</p>
         <hr>
-
+    </header>
+    <main>
+        <!-- Section -->
         <h2>My Classes This Semester</h2>
         <ul>
             <li>CMSC 121: <i>Internet Technologies</i></li>
@@ -22,78 +24,84 @@
             <li>CMSC 127: <i>File Processing and Database System</i></li>
         </ul>
 
+        <!-- Section -->
         <h2>My Favorite Movies</h2>
-        <ol class="reverse-numbered">
-            <!-- Attach it's IMDB page -->
-            <li class="movies">Interstellar <a href="https://www.imdb.com/title/tt0816692/" target="_blank">(IMDB)</a></li>
-            
-            <dl>
-                <dt>Director</dt>
-                <dd>Christopher Nolan</dd>
+            <ol class="reverse-numbered">
+                <!-- Attach it's IMDB page -->
+                <li class="movies">Interstellar <a href="https://www.imdb.com/title/tt0816692/" target="_blank">(IMDB)</a>
+                    <dl>
+                        <dt>Director</dt>
+                        <dd>Christopher Nolan</dd>
 
-                <dt>Writers</dt>
-                <dd>Jonathan Nolan</dd>
-                <dd>Christopher Nolan</dd>
+                        <dt>Writers</dt>
+                        <dd>Jonathan Nolan</dd>
+                        <dd>Christopher Nolan</dd>
 
-                <dt>Stars</dt>
-                <dd>Matthew McConaughey</dd>
-                <dd>Anne Hathaway</dd>
-                <dd>Jessica Chastain</dd>
-            </dl>
-
-            <br>
-            <li class="movies">The Notebook <a href="https://www.imdb.com/title/tt0332280/" target="_blank">(IMDB)</a></li>
-            <dl>
-                <dt>Director</dt>
-                <dd>Nick Cassavetes</dd>
-
-                <dt>Writers</dt>
-                <dd>Jeremy Leven</dd>
-                <dd>Jan Sardi</dd>
-                <dd>Nicholas Sparks</dd>
-
-                <dt>Stars</dt>
-                <dd>Gena Rowlands</dd>
-                <dd>James Garner</dd>
-                <dd>Rachel McAdams</dd>
-            </dl>
-
-            <br>
-            <li class="movies">Captain America: The Winter Soldier <a href="https://www.imdb.com/title/tt1843866/" target="_blank">(IMDB)</a></li>
-            <dl>
-                <dt>Director</dt>
-                <dd>Anthony Russo</dd>
-                <dd>Joe Russo</dd>
+                        <dt>Stars</dt>
+                        <dd>Matthew McConaughey</dd>
+                        <dd>Anne Hathaway</dd>
+                        <dd>Jessica Chastain</dd>
+                    </dl>
+                    <br>
+                </li>
                 
-                <dt>Writers</dt>
-                <dd>Christopher Markus</dd>
-                <dd>Stephen McFeely</dd>
-                <dd>Joe Simon</dd>
+                <li class="movies">The Notebook <a href="https://www.imdb.com/title/tt0332280/" target="_blank">(IMDB)</a>
+                    <dl>
+                        <dt>Director</dt>
+                        <dd>Nick Cassavetes</dd>
 
-                <dt>Stars</dt>
-                <dd>Chris Evans</dd>
-                <dd>Samuel L. Jackson</dd>
-                <dd>Scarlett Johansson</dd>
-            </dl>
-        </ol>
+                        <dt>Writers</dt>
+                        <dd>Jeremy Leven</dd>
+                        <dd>Jan Sardi</dd>
+                        <dd>Nicholas Sparks</dd>
 
-        <h2>My Moods</h2>
-        <!-- Fix your table divider here -->
-        <table>
-            <tr>
-                <th>Me when I'm happy</th>
-                <th>Me when I'm sad</th>
-            </tr>
-            <tr>
-                <td><img class="moods" alt="happy me" src="assets/happy-baymax.jpg"></td>
-                <td><img class="moods" alt="sad me" src="assets/sad-baymax.jpg"></td>
-            </tr>
-        </table>
+                        <dt>Stars</dt>
+                        <dd>Gena Rowlands</dd>
+                        <dd>James Garner</dd>
+                        <dd>Rachel McAdams</dd>
+                    </dl>
+                    <br>
+                </li>
+                
+                <li class="movies">Captain America: The Winter Soldier <a href="https://www.imdb.com/title/tt1843866/" target="_blank">(IMDB)</a>
+                    <dl>
+                        <dt>Director</dt>
+                        <dd>Anthony Russo</dd>
+                        <dd>Joe Russo</dd>
+                        
+                        <dt>Writers</dt>
+                        <dd>Christopher Markus</dd>
+                        <dd>Stephen McFeely</dd>
+                        <dd>Joe Simon</dd>
 
-        <h2>Fun Facts About My Seatmates</h2>
-        <p><b>Norman Eulin:</b> Hiking is one of his hobbies.</p>
-        <p><b>Elizah Sumbeling: </b> She's interested in Biology.</p>
-    </div>
+                        <dt>Stars</dt>
+                        <dd>Chris Evans</dd>
+                        <dd>Samuel L. Jackson</dd>
+                        <dd>Scarlett Johansson</dd>
+                    </dl>
+                    <br>
+                </li>
+            </ol>
+            
+            <!-- Section -->
+            <h2>My Moods</h2>
+            <!-- Fix your table divider here -->
+            <table>
+                <tr>
+                    <th>Me when I'm happy</th>
+                    <th>Me when I'm sad</th>
+                </tr>
+                <tr>
+                    <td><img class="moods" alt="happy me" src="assets/happy-baymax.jpg"></td>
+                    <td><img class="moods" alt="sad me" src="assets/sad-baymax.jpg"></td>
+                </tr>
+            </table>
+
+            <!-- Section -->
+            <h2>Fun Facts About My Seatmates</h2>
+            <p><b>Norman Eulin:</b> Hiking is one of his hobbies.</p>
+            <p><b>Elizah Sumbeling: </b> She's interested in Biology.</p>
+    </main>
     <footer>
         <a href="http://validator.w3.org/check/referer" target="_blank"><img alt="html-checker" src="http://www.w3.org/Icons/valid-xhtml11"></a>
         <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img alt="css-checker" src="http://jigsaw.w3.org/css-validator/images/vcss"></a>
