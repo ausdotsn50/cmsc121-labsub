@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-image: url("assets/silverware.jpg");
+    background-repeat: repeat;
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, serif;
@@ -19,10 +20,14 @@ a {
     list-style-type: none;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     font-size: 22pt;
     font-weight: bold;
-    text-align: center;   
 }
 
 h2 {
@@ -31,10 +36,12 @@ h2 {
 }
 
 h1, h2 {
+    display: inline-block;
     color: #A4A400;
     background-color: #F0F0F0;
     font-family: 'Lucida Sans Unicode', Helvetica, Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    letter-spacing: 0.25em;
 }
 
 span {
@@ -57,4 +64,8 @@ p {
 
 .comment-wrapper {
     padding: 2.5px 30px;
+}
+
+ul {
+    list-style-image: url(assets/pie_icon.gif);
 }
