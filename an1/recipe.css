@@ -48,17 +48,13 @@ span {
     border-bottom: 1px dotted #000;
 }
 
-#cake {
-    text-decoration: str;
-}
-
 p {
     margin: 0;
     margin-bottom: 3px;
 }
 
 .comment {
-    background-color: rgb(255, 255, 172);
+    background-color: #FFFFA8;
     margin-bottom: 10px;
 }
 

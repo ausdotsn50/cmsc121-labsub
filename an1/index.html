@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <h1>Recipes</h1>
+        <h1>WORLD'S BEST PIE</h1>
+        <h2>Made by the world's best Grandma</h2>
     </header>
     <main>
-        <p><a href="pie.html">The world's best pie recipe</a></p>
+        <!-- Card div -->
+        <div class="card">
+            <!-- Img src: https://www.allrecipes.com/recipe/15093/grandmas-lemon-meringue-pie/-->
+            <img id="pie" src="assets/lemon-meringue.jpg" alt="meringue-pie">
+            <div class="text">
+                <p id="mini-text">PIE RECIPES</p>
+                <h3><a id="main-text" href="pie.html">Grandma's Lemon Meringue Pie</a></h3>
+            
+                <div id="rating">
+                    <!-- Img svg src: https://www.svgrepo.com/svg/302554/star-->
+                    <img class="star-icon" src="assets/star-svgrepo-com.svg" alt="star-icon">
+                    <img class="star-icon" src="assets/star-svgrepo-com.svg" alt="star-icon">
+                    <img class="star-icon" src="assets/star-svgrepo-com.svg" alt="star-icon">
+                    <img class="star-icon" src="assets/star-svgrepo-com.svg" alt="star-icon">
+                    <span>1,385 ratings</span>
+                </div>
+                
+            </div>
+        </div>
     </main>
     <footer>
-        <a href="http://validator.w3.org/check/referer" target="_blank"><img alt="html-checker" src="http://www.w3.org/Icons/valid-xhtml11"></a>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img alt="css-checker" src="http://jigsaw.w3.org/css-validator/images/vcss"></a>
+        <a href="http://validator.w3.org/" target="_blank"><img alt="html-checker" src="assets/w3c-xhtml.png"></a>
+        <a href="http://jigsaw.w3.org/css-validator/" target="_blank"><img alt="css-checker" src="assets/w3c-css.png"></a>
     </footer>
 </body>
 </html>

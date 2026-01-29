@@ -1,0 +1,91 @@
+body {
+    background-image: url(assets/background.gif);
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header, main, footer {
+    margin-bottom: 10pt;
+}
+
+h1 {
+    font-size: 50pt;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300pt;
+}
+
+#rating {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.star-icon {
+    width: 15px;
+}
+
+span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65)
+}
+
+#pie {
+    width: 300pt;
+    height: auto;
+    border: 5px solid #cdb500;
+}
+
+p {
+    font-size: 16pt;
+    margin: 10px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+}
+
+#mini-text {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#main-text {
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 23px;
+    letter-spacing: normal;
+}
+
+#mini-text,
+#main-text {
+    font-weight: 700;
+}
