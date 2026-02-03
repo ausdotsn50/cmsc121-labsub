@@ -1,10 +1,14 @@
+/*
+    Name: Angela Denise Almazan
+    Section: 121-B & 121-P
+    HTML and CSS files for the lecture on responsive design
+*/
 body {
     background-image: url(assets/background.png);
     background-repeat: repeat;
     font-size: 8pt;
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,10 +32,15 @@ body {
 
 #overall-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 0;
     max-width: 800px;
     border: 4px gray solid;
     border-radius: 20px;
+}
+
+.overall-content.main {
+    display: flex;
 }
 
 #rotten-rating {
@@ -78,23 +87,17 @@ dt {
     padding: 10pt;
 }
 
-li {
-    list-style: none;
-}
-
-ul {
+li, ul {
     padding: 0;
+    list-style: none;
 }
 
 #audience-review {
     column-count: 2;
-    column-gap: 20px;
-    padding: 20px 2% 0 2%;
+    padding: 2%;
 }
 
 #content-footer {
-    order: 3;
-    flex: 1;
     text-align: center;
     margin: 0;
     padding: 5px;
@@ -138,21 +141,25 @@ ul {
     border: 2px solid gray;
     border-radius: 10px;
     padding: 8px;
-    
     font-size: 8pt;
     font-weight: bold;
-    
     margin-top: 0;
-    margin-bottom: 5px;
-    
     overflow: hidden; 
 }
 
-.review img {
+.review img, .person img {
     float: left;
-    margin-right: 10px;
+    margin-right: 5px;
+}
+
+.review-container {
+    margin-bottom: 20pt;
 }
 
 .person {
-    display: flex;
+    overflow: hidden;
+}
+
+.person span {
+    font-style: italic;
 }
