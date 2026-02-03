@@ -1,0 +1,41 @@
+/* Answers for exercise_3 */
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10%;
+	justify-content: center;
+	background-image: url(images/background.gif);
+	background-repeat: repeat;
+}
+
+main {
+	margin-top: 10px;
+	border: 10px white solid;
+	background-color: white;
+}
+
+header {
+	background-color: #A8F0F0;
+	text-align: right;
+}
+
+header h2 {
+	text-align: right;
+	font-size: 14pt;
+}
+
+section {
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+section span {
+	border-bottom: 2px #009098 dashed;
+}
+
+section img {
+	float: right;
+}

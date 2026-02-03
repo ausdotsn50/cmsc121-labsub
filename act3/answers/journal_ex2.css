@@ -1,0 +1,34 @@
+/* Answers for exercise_2 */
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10%;
+	justify-content: center;
+	background-image: url(images/background.gif);
+	background-repeat: repeat;
+}
+
+main {
+	margin-top: 10px;
+	border: 5px green solid;
+	background-color: white;
+}
+
+header {
+	border: 5px red solid;
+}
+
+header h2 {
+	border: 5px orange solid;
+}
+
+section {
+	border: 5px blue solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+section span {
+	border: 5px purple solid;
+}
