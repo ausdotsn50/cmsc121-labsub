@@ -1,0 +1,188 @@
+/*
+A CSS exercise for CMSC 121: Internet Technologies
+    - Practice on wireframes and CSS layouting techniques
+    - Submitted by Angela Denise Almazan
+*/
+
+/* Force elements to conform with border-box: content+extras*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 90% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* border: 5px solid burlywood; */
+    height: 100vh;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid palegoldenrod; */
+    background-color: #f2f4f7;
+}
+
+/* Left portion of login */
+#login-left-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 48px 0 0;
+    width: 500px;
+}
+
+#fb-logo{
+    display: flex; 
+    justify-content: flex-start;
+}
+
+#fb-logo img {
+    height: 70px;
+    margin-left: -20px;
+    padding: 8 0px 16px;
+}
+
+#recent {
+    font-size: 36px;
+    color: #333333;
+}
+
+#click-pic {
+    font-size: 15px;
+    color: #606770;
+}
+
+#click-pic {
+    margin: 0 0 12px;
+    padding: 0 0 12px;
+}
+
+#accounts {
+    display: flex;
+    gap: 10px;
+}
+
+#accounts p {
+    text-align: center;
+    color: #4b4f56;
+    font-size: 12px;
+    padding: 12px;
+}
+
+#accounts img {
+    width: auto;
+    height: 160px;   
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#accounts div {
+    border-radius: 8px;
+    border: 2px solid #dbdddf;
+    background-color: white;
+}
+
+/* Right portion of login/homepage */
+#login-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px 0 24px;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+input {
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+}
+
+#login-btn {
+    background: #0866ff;
+    font-size: 20px;
+}
+
+input, button {
+    border-radius: 6px;
+    width: 330px;
+}
+
+form p {
+    font-size: 14px;
+    color: #0866ff;
+}
+
+button {
+    border: none;
+    line-height: 48px;
+    padding: 0 16px;
+    font-weight: 500;
+    color: white;
+    font-weight: 700;
+}
+
+button, input {
+    font-size: 17px;
+}
+
+#create-btn {
+    width: 200px;
+    background: #42b72a;
+}
+
+form div.line {
+    width: 330px;
+}
+
+footer div.line {
+    width: auto;
+}
+
+.line {
+  border-top: 1px solid #DADDE1;
+  margin: 10px 0;
+}
+
+#create-page {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer.text-cont {
+    font-size: 12px;
+    color: #8a8d91;
+}
+
+.footer.plc {
+    max-width: 600px;
+}
+
+span {
+    margin-right: 5px;
+}
