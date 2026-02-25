@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch Lab: Urban Dictionary</title>
+    <link rel="stylesheet" href="urban.css">
+</head>
+<body>
+    <h1>Slang Finder</h1>
+    <div class="search-box">
+    <div style="position: relative; flex: 1;">
+        <input type="text" id="wordInput" placeholder="Start typing..." autocomplete="off">
+        <!-- Dropdown for suggestions -->
+        <div id="autocomplete-list" style="position: absolute; width: 100%; background: white; border: 1px solid #ccc; display: none; z-index: 10;"></div>
+    </div>
+        <button id="searchBtn">Search</button>
+    </div>
+
+
+    <div id="loader"></div>
+    <div id="results"></div> <!-- Add results to results div -->
+
+    <script src="script-scaffold.js"></script>
+</body>
+</html>

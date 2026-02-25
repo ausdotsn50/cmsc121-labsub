@@ -1,4 +1,4 @@
-# Stylize My Text
+# Whack-A-Bug
 Submitted as Activity 5 for the DOM Manipulation and Event Handling lecture of the CMSC 121: Internet Technologies course
 
 ## 📺 Live Website 
