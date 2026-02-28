@@ -1,0 +1,26 @@
+body {
+    font-size: 12pt;
+    font-family: Georgia, serif;
+}
+
+/* Insert baby name ranking id=graph table */
+.bar {
+    background-color: #ffbbbb;
+    width: 50px;
+}
+
+#graph td {
+    vertical-align: bottom;  /* Anchors bars to the bottom of cont. */
+}
+
+#graph {
+    max-height: 250px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#errors {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
