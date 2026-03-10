@@ -11,12 +11,16 @@ body {
 
 #graph td {
     vertical-align: bottom;  /* Anchors bars to the bottom of cont. */
+    height: 250px;
 }
 
 #graph {
-    max-height: 250px;
+    height: 250px;
     font-weight: bold;
     text-align: center;
+
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
 #errors {
